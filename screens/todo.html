@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/homeEstilos/reset.css">
+    <link rel="stylesheet" href="/homeEstilos/banner.css">
+    <link rel="stylesheet" href="/homeEstilos/contact.css">
+    <link rel="stylesheet" href="homeEstilos/footer.css">
+    <link rel="stylesheet" href="/homeEstilos/navbar.css">
+    <link rel="stylesheet" href="/homeEstilos/grid.css">
+    <link rel="stylesheet" href="/homeEstilos/todo.css">
+    <script src="https://kit.fontawesome.com/ef0d26dbf6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="navbar">
+        <nav class="nav">
+            <div class="logo__container">
+                <img src="images/controller.png" alt="">
+                <a class="alura__text" href=""><span class="logo__color">Alura</span>Geek</a>
+            </div>
+            <div class="invertir">
+                <a href="./login.html"><button class="login botonAzul__nav">Login</button></a>
+                <input placeholder="¿Que desea buscar? " class="search" type="search__input">
+            </div>
+            
+            <img class="search__logo" src="/images/search.png" alt="">
+
+        </nav>
+    </section>
+
+   
+
+    <section id="gridProducts" >
+        <div class="header__grid">
+            <h3 class="grid__text">Todos los productos</h3>
+           <button class="todo__button">Agregar al carrito</button>
+        </div>
+        <div data-products class=" grid__principal starWars">
+            
+
+        </div>
+
+        
+
+    <section id="contact">
+        <div class=" logo__contact logo__container">
+            <img src="images/controller.png" alt="">
+            <a class="alura__text" href=""><span class="logo__color">Alura</span>Geek</a>
+        </div>
+        
+            <ul class="contact__container">
+                <li><a class="contact__item" href="">Quienes Somos</a></li>
+                <li><a class="contact__item" href="">Politicas de privacidad</a></li>
+                <li><a class="contact__item" href="">Programa de fidelidad</a></li>
+                <li><a class="contact__item" href="">Nuestas tiendas</a></li>
+                <li><a class="contact__item" href="">Quiero ser franquiciado</a></li>
+                <li><a class="contact__item" href="">Anuncie aqui</a></li>
+            </ul>
+        
+
+        
+            <form class="form" action="">
+                <h3 class="contact-h3__alinear">Hable con nosotros</h3>
+                <input placeholder="Name" name="Name" type="text">
+                <input placeholder="Escribe tu mensaje" name="Mensaje" type="text">
+                <button class="contact__boton">Enviar mensaje</button>
+            </form>
+
+        
+
+    </section>
+    <footer id="footer">
+        <p>Desarrollado por Kevin @2023</p>
+    </footer>
+
+
+    <script type="module" src="/controllers/product-controller.js"></script>
+</body>
+</html>

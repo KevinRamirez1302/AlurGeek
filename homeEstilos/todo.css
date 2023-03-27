@@ -1,0 +1,22 @@
+.grid__principal{
+    margin-top: 2rem ;
+    gap: 4REM;
+}
+
+#gridProducts{
+    margin-top:3rem;
+}
+
+.header__grid{
+    margin-bottom: 6rem;
+}
+
+.todo__button{
+    display: none;
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}
+
