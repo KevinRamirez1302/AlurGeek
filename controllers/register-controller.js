@@ -13,7 +13,7 @@ form.addEventListener('submit', (evento) =>{
     console.log(email + '-' + pass);
 
     productService.loginCliente(email,pass).then((respuesta) =>{
-        window.location.href = '/screens/administrador.html'
+        window.location.href = '../screens/administrador.html'
     }).cath(err=>{
         console.log(err)
     })

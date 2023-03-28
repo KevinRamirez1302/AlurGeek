@@ -15,7 +15,7 @@ form.addEventListener('submit', async(evento) =>{
 
     
         await productService.agregarProductoStar(nombre,precio,url,descripcion).then(()=>{
-            window.location.href = '/screens/producto-agregado.html'
+            window.location.href = '../screens/producto-agregado.html'
         })
         
 
