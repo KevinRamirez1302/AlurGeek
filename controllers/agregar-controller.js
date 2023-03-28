@@ -12,8 +12,18 @@ form.addEventListener('submit', async(evento) =>{
     const precio = document.querySelector('[data-precio]').value;
     const url = document.querySelector('[data-url]').value;
     const descripcion = document.querySelector('[data-descripcion]').value;
+
+    
+        await productService.agregarProductoStar(nombre,precio,url,descripcion).then(()=>{
+            window.location.href = '/screens/producto-agregado.html'
+        })
+        
+
+    
     
 
-    await productService.agregarProductoStar(nombre,precio,url,descripcion)
+    
+
+
 
     });

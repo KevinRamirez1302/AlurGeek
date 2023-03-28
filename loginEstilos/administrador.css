@@ -44,6 +44,7 @@ border: none;
     width: 72%;
     padding: 1rem;
     margin-top: .5rem;
+    cursor: pointer;
 }  
 
 .input__admin label{
@@ -111,4 +112,5 @@ border: none;
         padding: 1rem;
         margin-top: .5rem;
     }  
+
 }

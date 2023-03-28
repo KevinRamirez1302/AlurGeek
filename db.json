@@ -69,13 +69,6 @@
       "price": "60",
       "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
       "id": 17
-    },
-    {
-      "name": "Yoda",
-      "imgURL": "/images/12.png",
-      "price": "60",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
-      "id": 18
     }
   ],
   "usuarioNuevo": [

@@ -1,0 +1,78 @@
+#agregado{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.container img{
+    width: 30vw;
+    
+}
+
+.container h1{
+    font-size: 1rem;
+    margin: 3rem;
+}
+
+.container button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+.container button {
+    padding: 1rem;
+    width: 35vw;
+    border: none;
+    background-color: #2A7AE4;
+}
+
+
+
+@media screen and (min-width:768px){
+   
+    .container h1{
+        font-size: 2rem;
+        margin: 3rem;
+    }
+
+    .container img{
+        width: 16vw;
+        
+    }
+
+    .container button {
+        padding: 1rem;
+        width: 25vw;
+        border: none;
+        background-color: #2A7AE4;
+    }
+    
+   
+}
+
+@media screen and (min-width:1150px){
+    .container h1{
+        font-size: 2rem;
+        margin: 3rem;
+    }
+    .container button {
+        padding: 1rem;
+        width: 25vw;
+        border: none;
+        background-color: #2A7AE4;
+    }
+    
+    .container img{
+        width: 16vw;
+        
+    }
+
+}

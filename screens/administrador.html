@@ -42,20 +42,20 @@
             <h3 class="administrador__titulo">Agrega nuevo producto</h3>
             <label for="">
                 <span>URL de imagen</span>
-                <input data-url type="text">
+                <input required data-url type="text">
             </label>
 
             <label for="">
                 <span>Nombre del producto</span>
-                <input data-nombre  type="text">
+                <input required data-nombre  type="text">
             </label>
             <label for="">
                 <span>Precio del producto</span>
-                <input data-precio type="text">
+                <input required data-precio type="text">
             </label>
            <label for="">
                 <span>Descripcion del producto</span>
-                <input data-descripcion type="text">
+                <input required data-descripcion type="text">
            </label>
             <button class="button__administrador">Agregar productos</button>
         </form>
@@ -64,7 +64,7 @@
 
     <section id="gridProducts" >
         <div class="header__grid">
-            <h3 class="grid__text">Productos</h3>
+            <h3 class="grid__text">Editar y eliminar productos</h3>
             
         </div>
             <div data-products class=" grid__principal starWars">
