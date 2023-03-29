@@ -39,7 +39,7 @@ form.addEventListener('submit', (evento)=>{
 
 
     productService.actualizarCliente(name,imgURL,price,descripcion,id).then (()=>{
-        window.location.href = '../screens/administrador.html'
+        window.location.href = '../screens/producto-editado.html'
     })
 
 

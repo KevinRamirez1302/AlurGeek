@@ -41,6 +41,20 @@
       "imgURL": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1b00a8db/images/funko/67537-2.png?sw=346&sh=346",
       "descripcion": "nuevo",
       "id": 12
+    },
+    {
+      "name": "Zorro de las nueve colas",
+      "price": "23,99",
+      "imgURL": "https://ccimg.canadacomputers.com/Products/1000x1000/893/1466/216244/46696.jpg",
+      "descripcion": "Nuevo de paquete",
+      "id": 13
+    },
+    {
+      "name": "Natsu funko",
+      "price": "12,99",
+      "imgURL": "https://cdn.shopify.com/s/files/1/0878/5254/products/fairy-tale-natsu-pop.jpg?v=1675777410",
+      "descripcion": "natzu nuevo",
+      "id": 14
     }
   ],
   "usuarioNuevo": [
@@ -103,6 +117,11 @@
       "email": "kevin.alexanderra1302@gmail.com",
       "pass": "dsdsdsd",
       "id": 24
+    },
+    {
+      "email": "kevin.croko@gmail.com",
+      "pass": "kskjdkjds",
+      "id": 25
     }
   ]
 }
