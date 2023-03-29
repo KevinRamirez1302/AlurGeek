@@ -1,5 +1,7 @@
 const listaProductos = () => fetch('http://localhost:3000/producto-star').then(respuesta => respuesta.json());
 
+const listaProductosAadmin = () => fetch('http://localhost:3000/producto-star').then(respuesta => respuesta.json());
+
 const loginCliente = (email,pass) =>{
     return fetch('http://localhost:3000/usuarioNuevo', {
           method:"POST",
@@ -53,6 +55,7 @@ const actualizarCliente = (name,imgURL,price,descripcion,id) =>{
 
 export const productService  ={
      listaProductos,
+     listaProductosAadmin,
      loginCliente,
      eliminarProducto,
      agregarProductoStar,
