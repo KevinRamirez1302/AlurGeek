@@ -2,73 +2,45 @@
   "producto-star": [
     {
       "name": "hola",
-      "imgURL": "./images/1.png",
+      "imgURL": "https://funkilandia.com/wp-content/uploads/2022/08/funkilandia_img_302.png",
       "price": "30",
       "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
       "id": 1
     },
     {
       "name": "Yoda",
-      "imgURL": "./images/3.png",
+      "imgURL": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61ZbaTTNDqL.jpg",
       "price": "60",
       "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
       "id": 3
     },
     {
       "name": "Yoda",
-      "imgURL": "./images/5.png",
+      "imgURL": "https://www.comicbookwire.com/wp-content/uploads/2021/12/Funko-Pop-Animation-My-Hero-Acadamia-Infinite-Deku-with-Eri-.jpg",
       "price": "60",
       "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
       "id": 5
     },
     {
-      "name": "Yoda",
-      "imgURL": "./images/6.png",
-      "price": "60",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
-      "id": 6
-    },
-    {
       "name": "Kevin",
-      "imgURL": "./images/16.png",
+      "imgURL": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51KJqhhcMZL.jpg",
       "price": "1000",
       "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
       "id": 10
     },
     {
       "name": "Yoda",
-      "imgURL": "./images/17.png",
+      "imgURL": "https://cdn.shopify.com/s/files/1/0024/9803/5810/products/623458-Product-0-I-638101780040583826_300x300.jpg?v=1674541649",
       "price": "60",
       "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
       "id": 11
     },
     {
-      "name": "Yoda",
-      "imgURL": "./images/18.png",
-      "price": "60",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
+      "name": "funko star wars",
+      "price": "15",
+      "imgURL": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1b00a8db/images/funko/67537-2.png?sw=346&sh=346",
+      "descripcion": "nuevo",
       "id": 12
-    },
-    {
-      "name": "Yoda",
-      "imgURL": "./images/8.png",
-      "price": "60",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
-      "id": 14
-    },
-    {
-      "name": "Yoda",
-      "imgURL": "./images/10.png",
-      "price": "60",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
-      "id": 16
-    },
-    {
-      "name": "Yoda",
-      "imgURL": "./images/11.png",
-      "price": "60",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
-      "id": 17
     }
   ],
   "usuarioNuevo": [
@@ -121,6 +93,16 @@
       "email": "kevin.croko@gmail.com",
       "pass": "dsfdsf",
       "id": 22
+    },
+    {
+      "email": "kevin.croko@gmail.com",
+      "pass": "kjksajdasdsa",
+      "id": 23
+    },
+    {
+      "email": "kevin.alexanderra1302@gmail.com",
+      "pass": "dsdsdsd",
+      "id": 24
     }
   ]
 }
