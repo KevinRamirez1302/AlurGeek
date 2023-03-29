@@ -10,7 +10,7 @@ const crearNuevaLinea = (name,imgURL,price,id) => {
     <p>${name}</p>
     <p>$ ${price}</p>
     <div class="admin-icon">
-    <button  class="button-img editar"><a href="./screens/editar.html?id=${id}"><img class="icon-img" src="./images/lapiz.png" alt="EDITAR"></a></button>
+    <button class="button-img editar"><a href="./screens/editar.html?id=${id}"><img class="icon-img" src="./images/lapiz.png" alt="EDITAR"></a></button>
       <button id ="${id}" class="button-img borrar"><img class="icon-img" src="../images/borrar.png" alt="borrar"></button>
      </div></a>
     `

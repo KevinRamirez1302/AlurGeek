@@ -10,9 +10,7 @@ form.addEventListener('submit', (evento) =>{
     const email = document.querySelector('[data-email]').value;
     const pass = document.querySelector('[data-password]').value;
 
-    console.log(email + '-' + pass);
-
-    productService.loginCliente(email,pass).then((respuesta) =>{
+    productService.loginCliente(email,pass).then(() =>{
         window.location.href = '../screens/administrador.html'
     }).cath(err=>{
         console.log(err)
