@@ -6,7 +6,7 @@ const crearNuevaLinea = (name,imgURL,price,id) => {
     const div = document.createElement('div');
     const contenido = 
     `
-    <a href='/screens/product-template.html?id=${id}'><img class="imgURL" src="${imgURL}" alt="">
+    <a href='./screens/product-template.html?id=${id}'><img class="imgURL" src="${imgURL}" alt="">
     <p>${name}</p>
     <p>$ ${price}</p>
     <div class="admin-icon">
