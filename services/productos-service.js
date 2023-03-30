@@ -14,7 +14,7 @@ const loginCliente = (email,pass) =>{
 
 
 const agregarProductoStar = (name,price,imgURL,descripcion) =>{
-     return fetch('http://localhost:3000/producto-star', {
+     return fetch('https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/producto-star', {
            method:"POST",
            headers:{
                 'Content-Type':'application/json'
@@ -26,7 +26,7 @@ const agregarProductoStar = (name,price,imgURL,descripcion) =>{
  
 
 const eliminarProducto = (id)=>{
-     return fetch(`http://localhost:3000/producto-star/${id}`,{
+     return fetch(`https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/producto-star/${id}`,{
           method: "DELETE"
      })
 }
@@ -34,13 +34,13 @@ const eliminarProducto = (id)=>{
 
 
 const detalleCliente = (id) =>{
-     return fetch (`http://localhost:3000/producto-star/${id}`).then ((respuesta) => respuesta.json())
+     return fetch (`https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/producto-star/${id}`).then ((respuesta) => respuesta.json())
    }
 
 
 
 const actualizarCliente = (name,imgURL,price,descripcion,id) =>{
-     return fetch(`http://localhost:3000/producto-star/${id}`,{
+     return fetch(`https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/producto-star/${id}`,{
        method: 'PUT',
        headers: {'Content-Type':'application/json'},
        body: JSON.stringify ({name,imgURL,price,descripcion})
@@ -48,7 +48,7 @@ const actualizarCliente = (name,imgURL,price,descripcion,id) =>{
  } 
 
  const mostrar = (id) => {
-     return fetch (`http://localhost:3000/producto-star/${id}`).then ((respuesta) => respuesta.json())
+     return fetch (`https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/producto-star/${id}`).then ((respuesta) => respuesta.json())
  }
 
 
