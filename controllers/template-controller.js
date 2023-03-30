@@ -4,7 +4,7 @@ const crearNuevaLinea = (name,imgURL,price,descripcion,id) => {
     const div = document.createElement('div');
     const contenido = 
     `
-    <img class="img-template" src=".${imgURL}" alt="">
+    <img class="img-template" src="${imgURL}" alt="">
             <div class="text-product">
                 <h1>${name}</h1>
                 <P class="precio">${price}$</P>

@@ -61,6 +61,6 @@ export const productService  ={
      agregarProductoStar,
      actualizarCliente,
      detalleCliente,
-     mostrar
+     mostrar,
 
 }
