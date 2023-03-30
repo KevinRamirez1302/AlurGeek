@@ -1,9 +1,9 @@
 {
   "producto-star": [
     {
-      "name": "hola",
+      "name": "naruto",
       "imgURL": "https://funkilandia.com/wp-content/uploads/2022/08/funkilandia_img_302.png",
-      "price": "30",
+      "price": "19,99",
       "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius a ad magni? Iusto eos recusandae id corrupti molestias eligendi, cum modi quaerat. Est animi impedit nulla unde, facilis culpa deserunt!",
       "id": 1
     },
@@ -122,6 +122,16 @@
       "email": "kevin.croko@gmail.com",
       "pass": "kskjdkjds",
       "id": 25
+    },
+    {
+      "email": "kevin.croko@gmail.com",
+      "pass": "kkkkjkj",
+      "id": 26
+    },
+    {
+      "email": "kevin.croko@gmail.com",
+      "pass": "jjhjhjhg",
+      "id": 27
     }
   ]
 }

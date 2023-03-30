@@ -23,7 +23,7 @@ const crearNuevaLinea = (name,imgURL,price,id) => {
       const id = btn.id;
 
      await productService.eliminarProducto(id)
-     
+     window.XMLHttpRequestUpload()
     
     })
     

@@ -1,9 +1,9 @@
-const listaProductos = () => fetch('http://localhost:3000/producto-star').then(respuesta => respuesta.json());
+const listaProductos = () => fetch('https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/producto-star').then(respuesta => respuesta.json());
 
-const listaProductosAadmin = () => fetch('http://localhost:3000/producto-star').then(respuesta => respuesta.json());
+const listaProductosAadmin = () => fetch('https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/producto-star').then(respuesta => respuesta.json());
 
 const loginCliente = (email,pass) =>{
-    return fetch('http://localhost:3000/usuarioNuevo', {
+    return fetch('https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/usuarioNuevo', {
           method:"POST",
           headers:{
                'Content-Type':'application/json'
