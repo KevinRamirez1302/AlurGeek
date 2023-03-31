@@ -43,7 +43,7 @@ const actualizarCliente = (name,imgURL,price,descripcion,id) =>{
      return fetch(`https://my-json-server.typicode.com/KevinRamirez1302/AlurGeek/producto-star/${id}`,{
        method: 'PUT',
        headers: {'Content-Type':'application/json'},
-       body: JSON.stringify ({name,imgURL,price,descripcion})
+       body: JSON.stringify ({name,imgURL,price,descripcion,id})
      }).then(respuesta => console.log (respuesta))
  } 
 
